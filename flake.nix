@@ -8,7 +8,7 @@
         };
         python = {
           path = ./templates/python;
-          description = '''Basic python environment'';
+          description = ''Basic python environment'';
         };
       };
     };
