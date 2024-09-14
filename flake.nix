@@ -10,6 +10,10 @@
           path = ./templates/python;
           description = ''Basic python environment'';
         };
+        rust = {
+          path = ./templates/rust;
+          description = ''Basic rust environment'';
+        };
       };
     };
 }
