@@ -12,12 +12,14 @@
             packages = [
               (pkgs.python3.withPackages (pyPkgs: with pyPkgs; [
                 # Some packages to use
-                # ipykernel
+                ipykernel
                 # numpy
                 # scipy
                 # pytest
                 # pytest-watch
               ]))
+
+              pkgs.mypy
             ];
           };
         };
